@@ -1,32 +1,48 @@
-# React + TypeScript + Vite
+# Nkorofi Makgato — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A personal portfolio website built with React, TypeScript, and Tailwind CSS.
 
-Currently, two official plugins are available:
+** Live Demo:** https://YOUR-PORTFOLIO-URL.vercel.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## About
 
-## React Compiler
+Software developer studying at Tshwane University of Technology. CCNA certified.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the Oxlint configuration
+- Responsive single-page layout
+- Smooth scroll navigation between sections
+- Hero, About, Skills, Certificates, and Contact sections
+- Clean typography and minimal design
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+## Tech Stack
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+- **React 19** + **TypeScript**
+- **Vite** for build tooling
+- **Tailwind CSS v4** for styling
+- **Vercel** for deployment
+
+## Getting Started
+
+```bash
+npm install
+npm run dev
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+## Project Structure
+
+```
+src/
+├── components/       # Section components (Navbar, Hero, About, etc.)
+├── App.tsx           # Main layout
+└── main.tsx          # Entry point
+```
+
+## Roadmap
+
+- [ ] Add profile photo
+- [ ] Add CCNA certificate image
+- [ ] Add projects section (featuring the [Clothing Store](https://github.com/nkorofimakgato-blip/clothing-store))
+- [ ] Add contact form
