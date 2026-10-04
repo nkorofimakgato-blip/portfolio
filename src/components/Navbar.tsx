@@ -5,7 +5,6 @@ const links = [
   { href: '#certificates', label: 'Certificates' },
   { href: '#contact', label: 'Contact' },
 ]
-]
 
 function Navbar() {
   return (
