@@ -22,6 +22,14 @@ function Contact() {
           >
             GitHub
           </a>
+          <a
+            href="https://www.linkedin.com/in/nkorofi-makgato-074708432"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="border border-gray-300 px-6 py-3 rounded-lg hover:bg-gray-100 transition-colors font-medium"
+          >
+            LinkedIn
+          </a>
         </div>
       </div>
     </section>
