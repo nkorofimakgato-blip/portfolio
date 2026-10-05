@@ -11,7 +11,7 @@ function Hero() {
           </h1>
           <p className="text-lg text-gray-600 mb-8 max-w-xl">
             I'm a software developer studying at Tshwane University of
-            Technology. I build responsive web applications with React,
+            Technology.my main programming language is Java, but I also build responsive web applications with React,
             TypeScript, and Tailwind CSS — and I hold a CCNA certification
             in networking fundamentals.
           </p>

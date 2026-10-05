@@ -1,6 +1,6 @@
 const skills = [
   'Java',
-  'HTML',
+  'Java',
   'CSS',
   'JavaScript',
   'TypeScript',
