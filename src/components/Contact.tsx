@@ -12,7 +12,7 @@ function Contact() {
             href="mailto:nkorofimakgato@gmail.com"
             className="bg-gray-900 text-white px-6 py-3 rounded-lg hover:bg-gray-700 transition-colors font-medium"
           >
-            📧 Email me
+             Email me
           </a>
           <a
             href="https://github.com/nkorofimakgato-blip"
@@ -23,7 +23,7 @@ function Contact() {
             GitHub
           </a>
           <a
-            href="https://www.linkedin.com/in/nkorofi-makgato-074708432"
+            href="https://www.linkedin.com/in/nkorofimakgato"
             target="_blank"
             rel="noopener noreferrer"
             className="border border-gray-300 px-6 py-3 rounded-lg hover:bg-gray-100 transition-colors font-medium"

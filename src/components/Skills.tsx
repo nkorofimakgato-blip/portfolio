@@ -1,4 +1,5 @@
 const skills = [
+  'Java',
   'HTML',
   'CSS',
   'JavaScript',
