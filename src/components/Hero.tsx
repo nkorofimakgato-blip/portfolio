@@ -33,7 +33,7 @@ function Hero() {
 
         <div className="w-48 h-48 sm:w-56 sm:h-56 rounded-full overflow-hidden bg-gray-200 mx-auto sm:mx-0 flex items-center justify-center">
           <img
-            src="/photos/profile.jpg"
+            src="/photos/me.jpg"
             alt="Nkorofi Makgato"
             className="w-full h-full object-cover"
             onError={(e) => {
