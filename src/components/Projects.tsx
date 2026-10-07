@@ -17,6 +17,15 @@ const projects: Project[] = [
     liveUrl: 'https://clothing-store-xi-gray.vercel.app',
     codeUrl: 'https://github.com/nkorofimakgato-blip/clothing-store',
   },
+  {
+    title: 'Weather App',
+    description:
+      'A weather app with city autocomplete, geolocation, and a 6-day forecast. Integrates the Open-Meteo API for real-time weather data with loading and error states.',
+    image: '/projects/weather-app.png',
+    tech: ['React', 'TypeScript', 'Tailwind', 'Open-Meteo API'],
+    liveUrl: 'https://weather-app-nkorofimakgato-blip.vercel.app',
+    codeUrl: 'https://github.com/nkorofimakgato-blip/weather-app',
+  },
 ]
 
 function Projects() {
