@@ -3,8 +3,8 @@ interface Project {
   description: string
   image: string
   tech: string[]
-  liveUrl: string
-  codeUrl: string
+  liveUrl?: string
+  codeUrl?: string
 }
 
 const projects: Project[] = [
@@ -25,6 +25,14 @@ const projects: Project[] = [
     tech: ['React', 'TypeScript', 'Tailwind', 'Open-Meteo API'],
     liveUrl: 'https://weather-app-nkorofimakgato-blip.vercel.app',
     codeUrl: 'https://github.com/nkorofimakgato-blip/weather-app',
+  },
+  {
+    title: 'Intelligent Recipes',
+    description:
+      'An Android app that tells you what you can cook right now with the ingredients you have — and shows which recipes you are 1–2 ingredients away from. Includes camera-based ingredient recognition (ML Kit) and a cloud-synced community recipe feed powered by Firebase Firestore.',
+    image: '/projects/intelligent-recipes-1.png',
+    tech: ['Android', 'Java', 'Firebase', 'ML Kit', 'CameraX'],
+    codeUrl: 'https://github.com/nkorofimakgato-blip/intelligent-recipes',
   },
 ]
 
@@ -77,22 +85,26 @@ function Projects() {
                 </div>
 
                 <div className="flex flex-wrap gap-3 mt-auto">
-                  <a
-                    href={project.liveUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="bg-gray-900 text-white px-5 py-2.5 rounded-lg hover:bg-gray-700 transition-colors text-sm font-medium"
-                  >
-                    View Live →
-                  </a>
-                  <a
-                    href={project.codeUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="border border-gray-300 px-5 py-2.5 rounded-lg hover:bg-gray-100 transition-colors text-sm font-medium"
-                  >
-                    View Code
-                  </a>
+                  {project.liveUrl && (
+                    <a
+                      href={project.liveUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-gray-900 text-white px-5 py-2.5 rounded-lg hover:bg-gray-700 transition-colors text-sm font-medium"
+                    >
+                      View Live →
+                    </a>
+                  )}
+                  {project.codeUrl && (
+                    <a
+                      href={project.codeUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="border border-gray-300 px-5 py-2.5 rounded-lg hover:bg-gray-100 transition-colors text-sm font-medium"
+                    >
+                      View Code
+                    </a>
+                  )}
                 </div>
               </div>
             </article>
