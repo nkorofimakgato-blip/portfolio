@@ -27,13 +27,13 @@ const projects: Project[] = [
     liveUrl: 'https://weather-app-nkorofimakgato-blip.vercel.app',
     codeUrl: 'https://github.com/nkorofimakgato-blip/weather-app',
   },
-  {
+    {
     title: 'Movie Finder',
     description:
       'A React + TypeScript app for browsing movies and TV shows. Fetches live data from the TMDB API, includes trending titles, full-text search, rich detail pages with cast and similar titles, and localStorage-backed favorites.',
     image: '/projects/movie-finder.png',
     tech: ['React', 'TypeScript', 'Tailwind', 'React Router', 'TMDB API'],
-     liveUrl: 'https://movie-finder-q9vj.vercel.app',
+    liveUrl: 'https://movie-finder-q9vj.vercel.app',
     codeUrl: 'https://github.com/nkorofimakgato-blip/movie-finder',
   },
   {
