@@ -5,6 +5,7 @@ interface Project {
   tech: string[]
   liveUrl?: string
   codeUrl?: string
+  isPhone?: boolean
 }
 
 const projects: Project[] = [
@@ -33,8 +34,40 @@ const projects: Project[] = [
     image: '/projects/intelligent-recipes-1.png',
     tech: ['Android', 'Java', 'Firebase', 'ML Kit', 'CameraX'],
     codeUrl: 'https://github.com/nkorofimakgato-blip/intelligent-recipes',
+    isPhone: true,
   },
 ]
+
+function PhoneFrame({ src, alt }: { src: string; alt: string }) {
+  return (
+    <div className="relative mx-auto" style={{ width: '200px' }}>
+      {/* Phone body */}
+      <div className="relative bg-gray-900 rounded-[2.5rem] p-2 shadow-2xl">
+        {/* Notch */}
+        <div className="absolute top-2 left-1/2 -translate-x-1/2 w-20 h-5 bg-gray-900 rounded-b-2xl z-10" />
+
+        {/* Screen */}
+        <div className="bg-gray-900 rounded-[2rem] overflow-hidden">
+          <img
+            src={src}
+            alt={alt}
+            className="w-full h-auto block"
+            onError={(e) => {
+              const img = e.target as HTMLImageElement
+              img.style.display = 'none'
+            }}
+          />
+        </div>
+
+        {/* Side button */}
+        <div className="absolute top-20 -right-[3px] w-[3px] h-12 bg-gray-800 rounded-r" />
+        {/* Volume buttons */}
+        <div className="absolute top-20 -left-[3px] w-[3px] h-8 bg-gray-800 rounded-l" />
+        <div className="absolute top-32 -left-[3px] w-[3px] h-8 bg-gray-800 rounded-l" />
+      </div>
+    </div>
+  )
+}
 
 function Projects() {
   return (
@@ -50,18 +83,23 @@ function Projects() {
           {projects.map((project) => (
             <article
               key={project.title}
-              className="grid md:grid-cols-2 gap-6 border border-gray-200 rounded-xl overflow-hidden bg-gray-50"
+              className="grid md:grid-cols-2 gap-0 border border-gray-200 rounded-xl overflow-hidden bg-gray-50"
             >
-              <div className="aspect-video md:aspect-auto md:h-full bg-gray-100 overflow-hidden">
-                <img
-                  src={project.image}
-                  alt={`${project.title} screenshot`}
-                  className="w-full h-full object-cover"
-                  onError={(e) => {
-                    const img = e.target as HTMLImageElement
-                    img.style.display = 'none'
-                  }}
-                />
+              {/* Image panel */}
+              <div className="aspect-[4/3] bg-gradient-to-br from-orange-50 via-white to-green-50 flex items-center justify-center p-6 overflow-hidden">
+                {project.isPhone ? (
+                  <PhoneFrame src={project.image} alt={`${project.title} screenshot`} />
+                ) : (
+                  <img
+                    src={project.image}
+                    alt={`${project.title} screenshot`}
+                    className="max-w-full max-h-full object-contain rounded-lg shadow-lg"
+                    onError={(e) => {
+                      const img = e.target as HTMLImageElement
+                      img.style.display = 'none'
+                    }}
+                  />
+                )}
               </div>
 
               <div className="p-6 sm:p-8 flex flex-col">
