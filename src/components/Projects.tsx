@@ -9,6 +9,16 @@ interface Project {
 }
 
 const projects: Project[] = [
+
+  {
+    title: 'Neon Drift',
+    description:
+      'A top-down arcade racing game built with React, TypeScript, and HTML5 Canvas. No game engine — custom physics for acceleration, momentum, and drifting, plus a lap system, minimap, skid marks, and particle effects.',
+    image: '/projects/neon-drift.png',
+    tech: ['React', 'TypeScript', 'Canvas', 'Game Physics', 'Tailwind'],
+    liveUrl: 'https://neon-drift-xxx.vercel.app',
+    codeUrl: 'https://github.com/nkorofimakgato-blip/neon-drift',
+  },
   {
     title: 'Clothing Store',
     description:
