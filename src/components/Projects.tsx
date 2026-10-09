@@ -28,6 +28,15 @@ const projects: Project[] = [
     codeUrl: 'https://github.com/nkorofimakgato-blip/weather-app',
   },
   {
+    title: 'Movie Finder',
+    description:
+      'A React + TypeScript app for browsing movies and TV shows. Fetches live data from the TMDB API, includes trending titles, full-text search, rich detail pages with cast and similar titles, and localStorage-backed favorites.',
+    image: '/projects/movie-finder.png',
+    tech: ['React', 'TypeScript', 'Tailwind', 'React Router', 'TMDB API'],
+     liveUrl: 'https://movie-finder-q9vj.vercel.app',
+    codeUrl: 'https://github.com/nkorofimakgato-blip/movie-finder',
+  },
+  {
     title: 'Intelligent Recipes',
     description:
       'An Android app that tells you what you can cook right now with the ingredients you have — and shows which recipes you are 1–2 ingredients away from. Includes camera-based ingredient recognition (ML Kit) and a cloud-synced community recipe feed powered by Firebase Firestore.',
