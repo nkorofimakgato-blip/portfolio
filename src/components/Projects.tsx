@@ -9,6 +9,15 @@ interface Project {
 }
 
 const projects: Project[] = [
+    {
+    title: 'Nkorofi AI',
+    description:
+      'A public-facing AI assistant embedded on this portfolio. Answers questions about my work, skills, and experience using a retrieval-augmented knowledge base. Streams responses token-by-token from Groq\'s GPT-OSS 120B via a Vercel serverless function.',
+    image: '/projects/nkorofi-ai.png',
+    tech: ['React', 'TypeScript', 'Vercel Functions', 'Groq', 'LLM Streaming'],
+    liveUrl: 'https://nkorofi-ai.vercel.app',
+    codeUrl: 'https://github.com/nkorofimakgato-blip/nkorofi-ai',
+  },
 
   {
     title: 'Neon Drift',
