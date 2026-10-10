@@ -6,6 +6,7 @@ import Projects from './components/Projects'
 import Certificates from './components/Certificates'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import ChatWidget from './components/ChatWidget'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Contact />
       </main>
       <Footer />
+      <ChatWidget />
     </div>
   )
 }
