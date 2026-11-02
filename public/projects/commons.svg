@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" fill="none">
+  <defs>
+    <linearGradient id="wash" x1="65" y1="40" x2="1110" y2="725" gradientUnits="userSpaceOnUse"><stop stop-color="#F8F7F1"/><stop offset="1" stop-color="#E9EEE7"/></linearGradient>
+    <linearGradient id="orb" x1="480" y1="160" x2="860" y2="560" gradientUnits="userSpaceOnUse"><stop stop-color="#B8E0C1"/><stop offset=".52" stop-color="#94BDA7"/><stop offset="1" stop-color="#D7B7F2"/></linearGradient>
+    <filter id="shadow" x="0" y="0" width="1" height="1" color-interpolation-filters="sRGB" filterUnits="objectBoundingBox"><feGaussianBlur stdDeviation="14"/></filter>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#7B9283" opacity=".22"/></pattern>
+  </defs>
+  <rect width="1200" height="760" rx="36" fill="url(#wash)"/>
+  <circle cx="1030" cy="165" r="190" fill="url(#dots)" opacity=".75"/>
+  <path d="M70 145H1130" stroke="#D9E0D8"/>
+  <circle cx="94" cy="91" r="22" fill="#314438"/><path d="M94 78v26M81 91h26M85 82l18 18M103 82L85 100" stroke="#E9F3E8" stroke-width="2"/>
+  <text x="132" y="99" fill="#26382E" font-family="Arial,sans-serif" font-size="26" font-weight="700" letter-spacing="-.5">commons</text>
+  <text x="938" y="94" fill="#718176" font-family="Arial,sans-serif" font-size="13" letter-spacing="2">COMMUNITY POWERED AI</text>
+  <text x="78" y="221" fill="#748078" font-family="Arial,sans-serif" font-size="14" letter-spacing="3">01 / SHARED INTELLIGENCE</text>
+  <text x="78" y="290" fill="#17261F" font-family="Arial,sans-serif" font-size="55" font-weight="700" letter-spacing="-2">AI works better</text>
+  <text x="78" y="350" fill="#17261F" font-family="Arial,sans-serif" font-size="55" font-weight="700" letter-spacing="-2">when shared.</text>
+  <text x="80" y="399" fill="#6B7770" font-family="Arial,sans-serif" font-size="18">Contribute what you can.</text>
+  <text x="80" y="427" fill="#6B7770" font-family="Arial,sans-serif" font-size="18">Take what you need.</text>
+  <rect x="78" y="481" width="206" height="52" rx="15" fill="#304438"/>
+  <text x="103" y="513" fill="#FFFDF7" font-family="Arial,sans-serif" font-size="15" font-weight="700">Meet Commons</text>
+  <path d="M246 507h17m0 0-6-6m6 6-6 6" stroke="#FFFDF7" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="694" cy="400" r="204" fill="#AFCAB8" opacity=".23" filter="url(#shadow)"/>
+  <path d="M496 327c56-78 128-106 211-82 71 20 128 74 158 151M483 424c57 83 135 121 227 106 63-10 118-47 157-104M564 226c-20 67-14 132 20 190 37 63 97 102 181 116M817 243c-55 49-85 111-88 184-2 57 16 106 52 151" stroke="#668472" stroke-width="2" stroke-linecap="round" opacity=".58"/>
+  <circle cx="694" cy="400" r="134" fill="url(#orb)"/>
+  <circle cx="694" cy="400" r="101" fill="#F5F5ED" opacity=".86"/>
+  <path d="M694 340c-34 0-61 24-61 55 0 18 10 34 27 44v24l33-15h1c34 0 61-24 61-53s-27-55-61-55Z" fill="#31483A"/>
+  <path d="M667 395h54M676 381h36M682 409h24" stroke="#D8EAD6" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="530" cy="290" r="19" fill="#F7F5EE" stroke="#B8C8B9" stroke-width="2"/><path d="M522 290h16M530 282v16" stroke="#65846E" stroke-width="2"/>
+  <circle cx="847" cy="325" r="17" fill="#F4E6DC"/><path d="m840 325 5 5 10-11" stroke="#BA765A" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="563" cy="517" r="16" fill="#E8DFF4"/><path d="M563 509v16M555 517h16" stroke="#8A72B3" stroke-width="2"/>
+  <circle cx="839" cy="505" r="21" fill="#E4EEE3"/><path d="M829 505h20M839 495v20" stroke="#5A8066" stroke-width="2"/>
+  <rect x="877" y="252" width="235" height="258" rx="22" fill="#FFF" stroke="#E0E6DE"/>
+  <circle cx="908" cy="287" r="10" fill="#74AA83"/><text x="929" y="292" fill="#526258" font-family="Arial,sans-serif" font-size="12" letter-spacing="1.3">COMMUNITY MODEL</text>
+  <text x="903" y="345" fill="#26372E" font-family="Arial,sans-serif" font-size="16" font-weight="700">How do we make</text><text x="903" y="370" fill="#26372E" font-family="Arial,sans-serif" font-size="16" font-weight="700">AI more accessible?</text>
+  <rect x="902" y="397" width="179" height="57" rx="13" fill="#EEF3EC"/><text x="917" y="421" fill="#617066" font-family="Arial,sans-serif" font-size="12">Share local model capacity</text><text x="917" y="440" fill="#617066" font-family="Arial,sans-serif" font-size="12">with people who need it.</text>
+  <circle cx="914" cy="480" r="5" fill="#70A67D"/><text x="928" y="484" fill="#68766D" font-family="Arial,sans-serif" font-size="11">No model keys shared</text>
+  <rect x="78" y="631" width="1044" height="1" fill="#DCE3DA"/><text x="79" y="674" fill="#7E8981" font-family="Arial,sans-serif" font-size="12" letter-spacing="2">DONOR-RUN MODELS</text><circle cx="289" cy="669" r="3" fill="#79A883"/><text x="308" y="674" fill="#7E8981" font-family="Arial,sans-serif" font-size="12" letter-spacing="2">FAIR ACCESS</text><circle cx="473" cy="669" r="3" fill="#79A883"/><text x="492" y="674" fill="#7E8981" font-family="Arial,sans-serif" font-size="12" letter-spacing="2">FRIEND SHARES</text>
+</svg>
