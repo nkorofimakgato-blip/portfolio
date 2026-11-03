@@ -10,19 +10,21 @@ import ChatWidget from './components/ChatWidget'
 
 function App() {
   return (
-    <div className="site-shell">
-      <Navbar />
-      <main>
-        <Hero />
-        <About />
-        <Skills />
-        <Projects />
-        <Certificates />
-        <Contact />
-      </main>
-      <Footer />
+    <>
+      <div className="site-shell">
+        <Navbar />
+        <main>
+          <Hero />
+          <About />
+          <Skills />
+          <Projects />
+          <Certificates />
+          <Contact />
+        </main>
+        <Footer />
+      </div>
       <ChatWidget />
-    </div>
+    </>
   )
 }
 
