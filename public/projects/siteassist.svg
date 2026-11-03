@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" fill="none" role="img" aria-labelledby="title description">
+  <title id="title">SiteAssist dashboard preview</title>
+  <desc id="description">A customer-support dashboard showing connected websites, mapped pages, offers, and an assistant preview.</desc>
+  <defs>
+    <linearGradient id="backdrop" x1="80" y1="80" x2="1360" y2="850" gradientUnits="userSpaceOnUse"><stop stop-color="#292b24"/><stop offset="1" stop-color="#44463a"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#cdd6bd"/><stop offset="1" stop-color="#9aaa84"/></linearGradient>
+    <filter id="shadow" x="36" y="30" width="1368" height="840" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#141510" flood-opacity=".26"/></filter>
+  </defs>
+  <rect width="1440" height="900" rx="32" fill="url(#backdrop)"/>
+  <circle cx="1280" cy="140" r="220" fill="#788264" fill-opacity=".14"/>
+  <g filter="url(#shadow)">
+    <rect x="76" y="62" width="1288" height="776" rx="22" fill="#f7f8f4"/>
+    <path d="M98 62h210v776H98a22 22 0 0 1-22-22V84a22 22 0 0 1 22-22Z" fill="#20221e"/>
+    <rect x="104" y="94" width="38" height="38" rx="12" fill="url(#accent)"/>
+    <path d="M113 113c4-6 8-9 12-9s8 3 12 9c-4 6-8 9-12 9s-8-3-12-9Z" stroke="#20221e" stroke-width="2"/>
+    <text x="154" y="109" fill="#f5f6ef" font-family="Arial,sans-serif" font-size="18" font-weight="700">siteassist</text>
+    <text x="154" y="126" fill="#9da193" font-family="Arial,sans-serif" font-size="10">CUSTOMER SUPPORT</text>
+    <text x="111" y="183" fill="#8f9387" font-family="Arial,sans-serif" font-size="10" letter-spacing="1.8">WORKSPACE</text>
+    <rect x="102" y="201" width="182" height="42" rx="10" fill="#34372f"/>
+    <circle cx="124" cy="222" r="10" fill="#bfcbb0"/>
+    <text x="119" y="226" fill="#30342b" font-family="Arial,sans-serif" font-size="11" font-weight="700">S</text>
+    <text x="143" y="226" fill="#f7f8f4" font-family="Arial,sans-serif" font-size="12" font-weight="600">My workspace</text>
+    <text x="111" y="285" fill="#8f9387" font-family="Arial,sans-serif" font-size="10" letter-spacing="1.8">MENU</text>
+    <rect x="102" y="301" width="182" height="40" rx="9" fill="#aeb99b"/>
+    <text x="121" y="326" fill="#25271f" font-family="Arial,sans-serif" font-size="13" font-weight="700">Overview</text>
+    <text x="121" y="373" fill="#d2d5cc" font-family="Arial,sans-serif" font-size="13">Websites</text>
+    <text x="121" y="419" fill="#d2d5cc" font-family="Arial,sans-serif" font-size="13">Promotions</text>
+    <text x="121" y="465" fill="#d2d5cc" font-family="Arial,sans-serif" font-size="13">Try assistant</text>
+    <text x="121" y="511" fill="#d2d5cc" font-family="Arial,sans-serif" font-size="13">Install widget</text>
+    <rect x="102" y="748" width="182" height="1" fill="#393b34"/>
+    <circle cx="124" cy="783" r="14" fill="#454a3e"/>
+    <text x="120" y="787" fill="#e5e9de" font-family="Arial,sans-serif" font-size="11" font-weight="700">N</text>
+    <text x="147" y="781" fill="#f0f1ea" font-family="Arial,sans-serif" font-size="11" font-weight="600">Admin</text>
+    <text x="147" y="797" fill="#95998e" font-family="Arial,sans-serif" font-size="9">Workspace owner</text>
+
+    <text x="350" y="113" fill="#8b8e83" font-family="Arial,sans-serif" font-size="10" letter-spacing="1.4">OVERVIEW</text>
+    <text x="350" y="159" fill="#25271f" font-family="Arial,sans-serif" font-size="29" font-weight="700">One assistant, every website.</text>
+    <text x="350" y="184" fill="#7c8075" font-family="Arial,sans-serif" font-size="13">Your connected stores, content, and promotions in one place.</text>
+    <rect x="1200" y="105" width="124" height="38" rx="10" fill="#25271f"/>
+    <text x="1220" y="129" fill="#f7f8f4" font-family="Arial,sans-serif" font-size="11" font-weight="600">＋ Connect site</text>
+
+    <rect x="350" y="218" width="292" height="112" rx="14" fill="#fff" stroke="#e3e5de"/>
+    <text x="372" y="247" fill="#74796e" font-family="Arial,sans-serif" font-size="11">Connected websites</text>
+    <text x="372" y="294" fill="#25271f" font-family="Arial,sans-serif" font-size="34" font-weight="700">03</text>
+    <rect x="572" y="238" width="46" height="46" rx="14" fill="#edf0e8"/><path d="M585 261h20m-10-10v20" stroke="#68735a" stroke-width="2" stroke-linecap="round"/>
+    <rect x="659" y="218" width="292" height="112" rx="14" fill="#fff" stroke="#e3e5de"/>
+    <text x="681" y="247" fill="#74796e" font-family="Arial,sans-serif" font-size="11">Pages mapped</text>
+    <text x="681" y="294" fill="#25271f" font-family="Arial,sans-serif" font-size="34" font-weight="700">042</text>
+    <rect x="881" y="238" width="46" height="46" rx="14" fill="#edf0e8"/><path d="M895 271v-15m9 15v-23m9 23v-10" stroke="#68735a" stroke-width="2" stroke-linecap="round"/>
+    <rect x="968" y="218" width="356" height="112" rx="14" fill="#fff" stroke="#e3e5de"/>
+    <text x="990" y="247" fill="#74796e" font-family="Arial,sans-serif" font-size="11">Active promotions</text>
+    <text x="990" y="294" fill="#25271f" font-family="Arial,sans-serif" font-size="34" font-weight="700">04</text>
+    <rect x="1250" y="238" width="46" height="46" rx="14" fill="#edf0e8"/><path d="m1273 247 4 8 8 1-6 6 2 8-8-4-8 4 2-8-6-6 8-1 4-8Z" stroke="#68735a" stroke-width="1.6" stroke-linejoin="round"/>
+
+    <rect x="350" y="354" width="602" height="306" rx="14" fill="#fff" stroke="#e3e5de"/>
+    <text x="376" y="389" fill="#272a22" font-family="Arial,sans-serif" font-size="15" font-weight="700">Connected websites</text>
+    <text x="376" y="411" fill="#8a8e82" font-family="Arial,sans-serif" font-size="11">Separate answers for every site</text>
+    <rect x="376" y="434" width="550" height="1" fill="#eceee8"/>
+    <circle cx="399" cy="469" r="18" fill="#e7ecdf"/><text x="393" y="473" fill="#68735a" font-family="Arial,sans-serif" font-size="12" font-weight="700">N</text>
+    <text x="430" y="466" fill="#30332b" font-family="Arial,sans-serif" font-size="12" font-weight="600">Northline Outfitters</text><text x="430" y="484" fill="#94988e" font-family="Arial,sans-serif" font-size="10">northline.example</text>
+    <rect x="812" y="459" width="89" height="24" rx="12" fill="#e9f1e3"/><circle cx="827" cy="471" r="3" fill="#688456"/><text x="837" y="475" fill="#5f7650" font-family="Arial,sans-serif" font-size="9" font-weight="600">Ready · 18 pages</text>
+    <rect x="376" y="506" width="550" height="1" fill="#eceee8"/>
+    <circle cx="399" cy="540" r="18" fill="#e8e9f2"/><text x="393" y="544" fill="#716f91" font-family="Arial,sans-serif" font-size="12" font-weight="700">S</text>
+    <text x="430" y="537" fill="#30332b" font-family="Arial,sans-serif" font-size="12" font-weight="600">Studio Thread</text><text x="430" y="555" fill="#94988e" font-family="Arial,sans-serif" font-size="10">studiothread.example</text>
+    <rect x="812" y="530" width="89" height="24" rx="12" fill="#e9f1e3"/><circle cx="827" cy="542" r="3" fill="#688456"/><text x="837" y="546" fill="#5f7650" font-family="Arial,sans-serif" font-size="9" font-weight="600">Ready · 12 pages</text>
+    <rect x="376" y="577" width="550" height="1" fill="#eceee8"/>
+    <circle cx="399" cy="611" r="18" fill="#f4eee2"/><text x="393" y="615" fill="#a18250" font-family="Arial,sans-serif" font-size="12" font-weight="700">+</text>
+    <text x="430" y="608" fill="#30332b" font-family="Arial,sans-serif" font-size="12" font-weight="600">Add another site</text><text x="430" y="626" fill="#94988e" font-family="Arial,sans-serif" font-size="10">One dashboard, many websites</text>
+
+    <rect x="971" y="354" width="353" height="306" rx="14" fill="#fff" stroke="#e3e5de"/>
+    <text x="995" y="389" fill="#272a22" font-family="Arial,sans-serif" font-size="15" font-weight="700">Assistant preview</text>
+    <text x="995" y="411" fill="#8a8e82" font-family="Arial,sans-serif" font-size="11">Answers from Northline Outfitters</text>
+    <rect x="993" y="435" width="308" height="174" rx="12" fill="#f7f8f4"/>
+    <rect x="1008" y="451" width="210" height="41" rx="11" fill="#fff" stroke="#e7e9e1"/>
+    <text x="1022" y="476" fill="#52564d" font-family="Arial,sans-serif" font-size="10">What are your delivery options?</text>
+    <rect x="1083" y="505" width="203" height="62" rx="11" fill="#e7ecdf"/>
+    <text x="1097" y="528" fill="#41483a" font-family="Arial,sans-serif" font-size="10">Standard delivery takes 2–5 days.</text>
+    <text x="1097" y="545" fill="#41483a" font-family="Arial,sans-serif" font-size="10">Orders over R1,000 ship free.</text>
+    <rect x="993" y="621" width="308" height="27" rx="9" fill="#f2f3ee"/>
+    <text x="1007" y="639" fill="#a0a399" font-family="Arial,sans-serif" font-size="10">Ask a question…</text>
+    <text x="996" y="696" fill="#75796f" font-family="Arial,sans-serif" font-size="10">Crawl content</text>
+    <rect x="1115" y="681" width="82" height="25" rx="12" fill="#edf0e8"/><text x="1134" y="697" fill="#667258" font-family="Arial,sans-serif" font-size="9" font-weight="600">Add offers</text>
+    <rect x="1205" y="681" width="96" height="25" rx="12" fill="#edf0e8"/><text x="1222" y="697" fill="#667258" font-family="Arial,sans-serif" font-size="9" font-weight="600">Install widget</text>
+  </g>
+</svg>
